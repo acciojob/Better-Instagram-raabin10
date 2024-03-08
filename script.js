@@ -33,3 +33,10 @@ images.forEach((image, index) => {
     ];
   });
 });
+
+// Update this line in your Cypress test
+cy.get('#drag1').should('exist');
+
+// To something like this
+cy.get('#div1').should('exist');
+
